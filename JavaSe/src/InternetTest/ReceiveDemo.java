@@ -8,7 +8,7 @@ public class ReceiveDemo {
     public static void main(String[] args) throws IOException {
         //靶子
         DatagramSocket receiver = new DatagramSocket(10086);
-        //坑
+        //空包
         byte[] data = new byte[1000];
         DatagramPacket receive_packet =new DatagramPacket(data,data.length);
         //接收
