@@ -26,4 +26,22 @@ public class Son extends Father {
         System.out.println("son:"+this.age);
         System.out.println("father:"+super.age);
     }
+
+    @Override
+    public String toString() {
+        return "Son{" +
+                "age=" + age +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Son son = (Son) o;
+
+        if (age != son.age) return false;
+        return name != null ? name.equals(son.name) : son.name == null;
+    }
 }
