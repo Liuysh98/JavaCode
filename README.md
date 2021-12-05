@@ -8,6 +8,8 @@
 ## 技术路线
 **刚开始可以大胆冒进，理解各种名词就好，具体用再具体学具体查，这样效果会更好！**
 - Java  [https://www.bilibili.com/video/BV18J411W7cE?p=143](https://www.bilibili.com/video/BV18J411W7cE?p=143)
+  
+  在这个部分初步了解了计算机网络，后续还需要在王道考研深加工一下。   
 - mysql
 - 算法就是刷题，八股
 
