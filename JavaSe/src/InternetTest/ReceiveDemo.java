@@ -6,7 +6,7 @@ import java.net.DatagramSocket;
 
 public class ReceiveDemo {
     public static void main(String[] args) throws IOException {
-        //靶子
+        //靶 子
         DatagramSocket receiver = new DatagramSocket(10086);
         //空包
         byte[] data = new byte[1000];
