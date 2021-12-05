@@ -17,7 +17,7 @@ public class ReceiveDemo {
         receiver.close();
 
 
-        //展示
+        //展 示
         String result = new String(receive_packet.getData(),0,receive_packet.getLength());
         System.out.println(result);
     }
